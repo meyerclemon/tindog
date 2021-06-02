@@ -70,10 +70,10 @@ p {
 /* Title Image */
 
 .title-image {
-    max-width: 60%;
+    max-width: 50%;
     transform: rotate(25deg);
     position: absolute;
-    right: 25%;
+    /* right: 20%; */
 }
 
 /* Features Section */
@@ -139,3 +139,26 @@ color: #ff4c68;
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* @media (min-width: 1140px) {
+    .title-image {
+        width: 20%;    }
+}
+
+@media (min-width: 892px) {
+    .title-image {
+        max-width: 30%;
+        right: 15%;
+    }
+} */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
