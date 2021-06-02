@@ -140,17 +140,33 @@ color: #ff4c68;
     padding: 3% 2%;
 }
 
-/* @media (min-width: 1140px) {
-    .title-image {
-        width: 20%;    }
+/* Call To Action  */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15% 7%;
 }
 
-@media (min-width: 892px) {
-    .title-image {
-        max-width: 30%;
-        right: 15%;
-    }
-} */
+.cta-heading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15% 7%
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
 
 @media (max-width: 1028px) {
     #title {
